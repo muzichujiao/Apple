@@ -47,6 +47,9 @@ a:hover,.correctSelectSpan:hover{text-decoration: underline;}
 	height: 800px;
 	width:100%;
 }
+.correctSelect a:hover,.correctSelect span:hover
+{text-decoration: underline;color:#08c; }
+
 .begin,.beginMin{
 	height: 44px;
 	width: 90%;
