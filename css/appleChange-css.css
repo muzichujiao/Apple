@@ -1,5 +1,5 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
-body { background:#fff;font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif; }
+body { background:#fff;font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;font-weight: 500; }
 h1, h2, h3, h4, h5, h6 { font-weight:normal; }
 a { color:#555; text-decoration:none; }
 img { border:none; }
@@ -11,11 +11,15 @@ img{border:0;vertical-align:middle;}
 table{border-collapse:collapse;border-spacing:0;}
 p{word-wrap:break-word;}
 ul{list-style: none;} 
+input{outline: 0;}
 footer,header,footer{display:block;font-size: 18px;}
-.html {font-size: 112.5%;}
+html {font-size: 112.5%;}
 .speachMin,.headerMin,.mainTopMin,.footerMin{display: none;}
 a:hover,.correctSelectSpan:hover{text-decoration: underline;}
 .main,.header,.contain,.footer{width: 99.9%;}
+.footerEndChina a:hover,.product-meun a:hover,.header-lodin a:hover,.endMin a:hover{
+	text-decoration: none;
+}
 .header-lodin,.headerMin{
 	padding-top: 2px;
 	height: 44px;
@@ -36,7 +40,11 @@ a:hover,.correctSelectSpan:hover{text-decoration: underline;}
 	max-width: 100%;
 }
 .header-lodin a:hover{color:  #b6b6b6;}
-.header-lodin a:hover img,.headerMin a:hover img{filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8}
+.header-lodin a:hover img,.headerMin a:hover img{
+	filter:alpha(Opacity=80);
+	-moz-opacity:0.8;
+	opacity: 0.8
+}
 #lodin-a{color: #7a7a7b;}
 .mainTop{
 	background-image: url(../images/pic20.jpg);
@@ -47,9 +55,9 @@ a:hover,.correctSelectSpan:hover{text-decoration: underline;}
 	height: 800px;
 	width:100%;
 }
-.correctSelect a:hover,.correctSelect span:hover
-{text-decoration: underline;color:#08c; }
-
+.correctSelect a:hover,.correctSelect span:hover{
+	text-decoration: underline;color:#08c; 
+}
 .begin,.beginMin{
 	height: 44px;
 	width: 90%;
@@ -97,8 +105,7 @@ a:hover,.correctSelectSpan:hover{text-decoration: underline;}
 }
 .middle input,.middleMin input{
 	width: 50%;
-    height: 35px;
-    padding-top: 15px;
+    height: 50px;
     border-radius: 3px;
     border: 1px solid #dedede;
     font-size: 24px;
@@ -198,7 +205,10 @@ a:hover,.correctSelectSpan:hover{text-decoration: underline;}
     max-width: 83.33333%;
 }
 .supportText{padding-bottom: 30px;}
-.supportText span,.supportText p,.tax p,.plan p{text-align: center;display: block;}
+.supportText span,.supportText p,.tax p,.plan p{
+	text-align: center;
+	display: block;
+}
 .supportText a,.plan a,.tax a{color: #74add9;line-height: 40px;}
 .correctSelect{
 	border:1px solid #f5f5f5;
@@ -285,7 +295,10 @@ a:hover,.correctSelectSpan:hover{text-decoration: underline;}
 	text-align: center;
 }
 .tax a{line-height: 70px;}
-.footer,.footerMin{background: #f2f2f2;padding-top: 10px;}
+.footer,.footerMin{
+	background: #f2f2f2;
+	padding-top: 10px;
+}
 .footerMeun{
 	height: 210px;
 	width:90%;
@@ -398,13 +411,15 @@ a:hover,.correctSelectSpan:hover{text-decoration: underline;}
 	.speach,.header,.mainTop,.footer{display: none;}
 	.speachMin,.headerMin,.mainTopMin,.footerMin{display: block;}
 	.topicalRight,.topicalLeft{width: 93%;}
-	.topicalPicOneimage2,.topicalPicOneimage1,.topicalTextPhone,.topicalTextInfor{width: 100%;text-align: center;}
+	.topicalPicOneimage2,.topicalPicOneimage1,.topicalTextPhone,.topicalTextInfor{
+		width: 100%;
+		text-align: center;
+	}
 	.topicalTextPhone,.topicalTextInfor{margin: 0;padding: 0;}
 	.speachMin img{
 		height: auto;
 		max-width: 100%;
 	}
-
 	.speachMin h2,.speachMin p,.speachMin a{padding-left: 8%;}
 	.speachMin p,.speachMin a{line-height: 40px;} 
 	.speachMin{padding-bottom: 50px;}
